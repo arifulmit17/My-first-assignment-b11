@@ -399,3 +399,91 @@
     text-align: center;
     margin-top: 15px;
 }
+
+.donate-item-container{
+    width: 1200px;
+    height: auto;
+    margin: 80px 0px 80px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px; 
+    gap: 32px;
+    background-color: aliceblue;
+    border: 2px solid blue;
+    align-items: center;
+}
+.donate-text{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.donate-tag{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.donate-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.taka-amount{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.taka{
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255); 
+    text-align: center;
+    align-content: center;
+    
+}
+.taka1{
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    text-align: center;
+    align-content: center;
+    
+}
+.other{
+    width: 1000px;
+    height: 60px;
+    align-content: center;
+}
+.form-txt{
+    width: 100%;
+    border: none;
+    text-align: center;
+}
+.done{
+    width: 150px;
+    height: 50px;
+    color: white;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    align-content: center;
+}
