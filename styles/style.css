@@ -168,9 +168,13 @@
 .exp-btn{
     width: 270px;
     height: 56px;
+    font-weight: bold;
     border-radius: 8px;
 }
-
+.exp-btn:hover{
+    color: black;
+    background-color: aliceblue
+}
 .monument-img{
     margin: 65px 0;
     width: 475px;
@@ -279,13 +283,24 @@
 .btn1{
     background: rgb(84, 144, 245);
 }
+.btn1:hover{
+    color: black;
+    background-color: aliceblue
+}
 .btn2{
     background: rgb(9, 161, 92);
+}
+.btn2:hover{
+    color: black;
+    background-color: aliceblue
 }
 .btn3{
     background: rgb(255, 194, 57);
 }
-
+.btn3:hover{
+    color: black;
+    background-color: aliceblue
+}
 .news-container{
     width: 1200px;
     height: auto;
@@ -399,6 +414,10 @@
     text-align: center;
     margin-top: 15px;
 }
+.news-btn:hover{
+    color: black;
+    background-color: aliceblue;
+}
 
 .donate-item-container{
     width: 1200px;
@@ -409,8 +428,7 @@
     justify-content: space-between;
     border-radius: 15px; 
     gap: 32px;
-    background-color: aliceblue;
-    border: 2px solid blue;
+    background-color: rgb(240, 245, 255);
     align-items: center;
 }
 .donate-text{
@@ -448,6 +466,7 @@
 .taka{
     width: 200px;
     height: 100px;
+    color: rgb(14, 14, 14);
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -455,6 +474,10 @@
     text-align: center;
     align-content: center;
     
+}
+.taka:hover{
+    color: white;
+    background: rgb(198, 228, 214);
 }
 .taka1{
     width: 200px;
@@ -467,6 +490,10 @@
     align-content: center;
     
 }
+.taka1:hover{
+    color: white;
+    background: rgb(255, 255, 255);
+}
 .other{
     width: 800px;
     height: 60px;
@@ -477,15 +504,20 @@
     border: none;
     text-align: center;
 }
-.done{
+.done {
     width: 150px;
     height: 50px;
+    font-weight: bold;
     color: white;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.1);
     border-radius: 8px;
     background: rgb(0, 106, 80);
     align-content: center;
+}
+.done:hover{
+    color: rgb(0, 106, 80) ;
+    background-color: white;
 }
 .subscribe-container{
     width: 1200px;
@@ -497,7 +529,6 @@
     align-items: center;
     border-radius: 24px;
     background: rgb(198, 228, 214);
-    border: 2px solid blue;
 }
 .sub-text-container{
     margin-top: 80px;
@@ -534,6 +565,7 @@
 .sub-text{
     width: 600px;
     height: 50px;
+    
     border-radius: 8px 0px 0px 8px;
     background: rgb(255, 255, 255);
     border: none;
@@ -543,9 +575,14 @@
     color: white;
     width: 150px;
     height: 50px;
+    font-weight: bold;
     border-radius: 0px 8px 8px 0px;
     background: rgb(0, 106, 80);
     border: none;
+}
+.btn-sub:hover{
+    color: rgb(0, 106, 80) ;
+    background-color: white;
 }
 .msg{
     color: rgba(14, 14, 14, 0.7);
